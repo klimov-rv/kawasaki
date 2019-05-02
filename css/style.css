@@ -432,8 +432,12 @@ footer .form-inline {
     padding: 0 40px;
     color: white;
 }
+.kw-searchInput {
+    background-color: #4b4b4b;
+}
+
 .kw-searchInput:focus {
-    background-color: #171717;
+    background-color: #4b4b4b;
 }
 .kw-btnsearch {
     position: absolute;
