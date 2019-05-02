@@ -93,6 +93,10 @@ nav.main .menu-top > li > a, nav.secondary li > a {
 nav.main .menu-top > li:first-child {
     margin: 0;
 }
+.dropdown-content {
+    margin: 0;
+    padding: 0;
+}
 .dropdown-content h5 {
     margin: 30px 35px 0px;
 }
@@ -174,11 +178,11 @@ nav.main .menu-top > li:first-child {
 }
 .catalog-line a {
     color: #999999;
-    height: 100%;
+    height: 93%;
     width: 100%;
     display: block;
     padding: 93px 0 0;
-    line-height: 23px;
+    line-height: 25px;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -519,9 +523,6 @@ body { background: #333; }
     padding: 0 25px 0 0;
 }
 
-.dropdown-large {
-    position: relative;
-}
 .dropbtn a.dropdown-toggle {
 
     font-weight: bold;
@@ -548,7 +549,7 @@ body { background: #333; }
     align-items: center;
     width: 160px;
     height: 45px;
-    border: 0px solid #dad9d9;
+    border: 1px solid #dad9d9;
     border-radius: 25px;
     position: relative;
     font-weight: bold;
@@ -595,7 +596,6 @@ body { background: #333; }
     margin: 0px;
     border: 0px;
     background: #aeaeac;
-    left: -5000px;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-duration: .25s;
@@ -607,13 +607,10 @@ body { background: #333; }
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     animation-name: fadeInUp;
-    width: 9999px;
+    width: 100vw;
     border-radius: 0;
 }
 
-.dropdown-content {
-    margin-left: calc(5000px - 270px);
-}
 .column-header {
     text-transform: uppercase;
     font-weight: bold;
@@ -633,21 +630,23 @@ body { background: #333; }
 .mega-menu li {
     float: left;
     font-size: 18px;
-    padding: 7px 15px;
+    padding: 5px 15px;
 }
 
 .mega-menu li.mega-menu-column {
-    width: 50vw;
+    width: 40vw;
     background: #aeaeac;
 }
 .mega-menu li.mega-menu-column:nth-child(even) {
+    width: 60vw;
     background: white;
 }
 
 .mega-menu ul.dropdown-content li.mega-menu-column ul {
-    width: 22vw;
+    width: 19vw;
     float: left;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .mega-menu .nav-header {
