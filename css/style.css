@@ -35,6 +35,9 @@ body {
     color: white;
     padding: 0;
 }
+.top_right_elements li:hover i:before {
+    color: #ff5900;
+}
 .top_right_elements li {
     float: right;
     border-right: 1px solid gray;
@@ -609,6 +612,7 @@ body { background: #333; }
     animation-name: fadeInUp;
     width: 100vw;
     border-radius: 0;
+    box-shadow: 0 10px 10px;
 }
 
 .column-header {
